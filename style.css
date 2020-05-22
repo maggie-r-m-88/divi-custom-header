@@ -1,0 +1,95 @@
+/*
+ Theme Name:   wonderbuild
+ Template:     Divi
+*/
+
+
+@import url("../Divi/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/* SHOW MOBILE MENU HAMBURGER ALL SCREENS */
+@media only screen and ( min-width:980px ) {
+    #et_mobile_nav_menu { display:block !important; margin-bottom:20px; margin-top:6px }
+    #top-menu-nav { display:none; }
+    .et-fixed-header #et_mobile_nav_menu { margin-bottom:0; }
+}
+
+/* SLIDE-IN MENU OVERLAP PAGE CONTAINER */
+#page-container {
+    left: 0!important;
+	
+}
+
+
+/* LOGO CHANGE PAGE */
+
+.page-id-10 img#logo {
+display: none;
+}
+
+.page-id-10 .logo_container a {
+content: url(/wp-content/uploads/2020/05/TotalView_logo_color.png) !important;
+max-height: 50%;
+}
+
+
+
+
+
+/* PUSHING MENU ITEMS DOWN */
+.et_slide_in_menu_container ul#mobile_menu_slide {
+    margin-top: 60px !important;
+}
+/* WHITE BORDER ON TOP OF MENU ITEMS */
+.et_slide_in_menu_container #mobile_menu_slide li.current-menu-item a, .et_slide_in_menu_container #mobile_menu_slide li a {
+    border-top: 1px solid #FFF;
+}
+/* REMOVING HOVER COLOR CHANGE ON MENU ITEMS */
+.et_mobile_menu li a:hover, .nav ul li a:hover {
+    background-color: none !important;
+    opacity: 1 !important;
+}
+
+/* MOBILE MENU ICON COLOR - FOR THE SLIDE-IN MENU CLOSED POSITION */
+.et_header_style_slide #et-top-navigation .mobile_menu_bar:before {
+  color:#fff;
+}
+.page-id-10 .mobile_menu_bar:before {
+  color:#848585 !important;
+}
+
+
+
+/* ACCORDIAN CUSTOM ICON */
+.et_pb_toggle_title:before {
+  content: url(/wp-content/uploads/2020/05/open-button-50px.png) !important;
+  zoom: 50% !important;
+  -moz-transform: scale(.5);
+  background-size: 50px !important;
+  width: 100px !important;
+  height: 50px !important;
+  visibility: visible;
+  display: block;
+  top: 10%;
+}
+/* ACCORDIAN ADD ICON TO OPEN TOGGLE */
+.et_pb_toggle_open .et_pb_toggle_title:before {
+  content: url(/wp-content/uploads/2020/05/close-button-50px.png) !important;
+  zoom: 50% !important;
+  -moz-transform: scale(.5);
+  background-size: 50px !important;
+  width: 100px !important;
+  height: 50px !important;
+  visibility: visible;
+  display: block !important;
+  top: 10%;
+}
+
+.et_pb_accordion.use-cases-toggle .et_pb_module.et_pb_accordion_item_5.et_pb_toggle{
+  padding-bottom: 25px;
+}
+

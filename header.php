@@ -169,7 +169,9 @@
 
 				</div> <!-- .et_slide_menu_top -->
 			<?php } ?>
-
+			
+			<!-- Top navigation toggle widget here -->
+			<?php dynamic_sidebar('top-nav-widget');?>
 			<div class="et_pb_fullscreen_nav_container">
 				<?php
 					$slide_nav = '';
@@ -197,9 +199,13 @@
 				?>
 
 				</ul>
-				<!-- Bottom navbar here -->
-				<?php dynamic_sidebar('ver-nav');?>
+				<!-- Bottom navbar widget here -->
+				<?php dynamic_sidebar('ver-nav-widget');?>
+			
 			</div>
+		
+			
+			
 		</div>
 	<?php endif; // true ==== $et_slide_header ?>
 

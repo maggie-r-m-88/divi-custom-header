@@ -38,8 +38,6 @@ max-height: 50%;
 
 
 
-
-
 /* PUSHING MENU ITEMS DOWN */
 .et_slide_in_menu_container ul#mobile_menu_slide {
     margin-top: 60px !important;
@@ -93,3 +91,13 @@ max-height: 50%;
   padding-bottom: 25px;
 }
 
+#custom-bottom-nav{
+  position: absolute;
+  bottom: 30px;
+}
+#custom-bottom-nav .textwidget{
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    padding: 20px;
+}

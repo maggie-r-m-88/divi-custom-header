@@ -199,13 +199,14 @@
 				?>
 
 				</ul>
-				<!-- Bottom navbar widget here -->
-				<?php dynamic_sidebar('ver-nav-widget');?>
-			
 			</div>
-		
 			
-			
+			<!-- Bottom navbar widget here -->
+			<?php if ( is_active_sidebar( 'ver-nav-widget' ) ) : ?>
+			    <div>
+			        <?php dynamic_sidebar( 'ver-nav-widget' ); ?>
+			    </div>
+			<?php endif; ?>
 		</div>
 	<?php endif; // true ==== $et_slide_header ?>
 

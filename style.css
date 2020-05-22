@@ -91,13 +91,53 @@ max-height: 50%;
   padding-bottom: 25px;
 }
 
+
+/* TOP HEADER HAMBURGER MENU */
+body.et_pb_slide_menu_active .et_pb_header_toggle{
+  opacity: 0;
+}
+.et_header_style_slide .et_pb_header_toggle{
+  transition: 0.3s opacity ease-in;
+}
+.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+    width: 32px;
+    width: 100px;
+    background: url(/wp-content/uploads/2020/05/burger_menu_grey.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.et_header_style_slide #et-top-navigation .mobile_menu_bar:before {
+    color: transparent;
+}
+
+
+
+/* CUSTOM SLIDING NAV  */
+#custom-menu-nav{
+  position: absolute;
+  right: 0;
+}
+#custom-menu-nav #toggler{
+  width: 100px;
+    height: 90px;
+    background: url('/wp-content/uploads/2020/05/closing-symbol_white.png');
+    background-size: cover;
+    background-position: center;
+}
 #custom-bottom-nav{
   position: absolute;
   bottom: 30px;
-}
-#custom-bottom-nav .textwidget{
     width: 100%;
     color: #FFF;
     font-size: 20px;
-    padding: 20px;
+    padding: 28px 40px;
+}
+#custom-bottom-nav .textwidget{
+  border-top: 1px solid #FFF;
+  padding-top: 10px;
+}
+
+#custom-bottom-nav .textwidget p, #custom-bottom-nav .textwidget a{
+    color: #FFF;
+    font-size: 14px;
 }

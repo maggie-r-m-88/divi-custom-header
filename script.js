@@ -1,3 +1,7 @@
+
+
+//Custom toggle vertical slider menu
+
 function et_toggle_slide_menu(force_state) {
     var $slide_menu_container = jQuery('.et_header_style_slide .et_slide_in_menu_container'),
         $page_container = jQuery('.et_header_style_slide #page-container, .et_header_style_slide.et_fixed_nav #main-header'),

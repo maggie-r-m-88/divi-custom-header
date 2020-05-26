@@ -117,6 +117,15 @@ body.et_pb_slide_menu_active .et_pb_header_toggle{
    opacity: 0;
 }
 
+/* Page with white nav background */
+.page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+  background: url(/wp-content/uploads/2020/05/burger_menu_grey_cropped.png);
+  background-size: contain;
+  background-position: center;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+
 
 
 /* CUSTOM SLIDING NAV  */
@@ -151,7 +160,7 @@ body.et_pb_slide_menu_active .et_pb_header_toggle{
 }
 
 @media (max-width: 782px){
-  .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle, .page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle{
     background: url(https://totalview2020.wpengine.com/wp-content/uploads/2020/05/burger_menu_white_cropped_mobile.png);
     background-size: contain;
     background-position: center;

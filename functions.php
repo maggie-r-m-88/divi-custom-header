@@ -26,3 +26,4 @@ register_sidebar( array(
 
 
 add_filter( 'widgets_init', 'divi_vertical_widgets', 10 );
+

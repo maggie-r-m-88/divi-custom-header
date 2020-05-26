@@ -169,9 +169,16 @@
 
 				</div> <!-- .et_slide_menu_top -->
 			<?php } ?>
+
+			<!-- Top navigation toggle widget -->
+			<?php if ( is_active_sidebar( 'top-nav-widget' ) ) : ?>
+			    <div>
+			        <?php dynamic_sidebar( 'top-nav-widget' ); ?>
+			    </div>
+			<?php endif; ?>
+			<!-- //Top navigation toggle widget -->
 			
-			<!-- Top navigation toggle widget here -->
-			<?php dynamic_sidebar('top-nav-widget');?>
+			
 			<div class="et_pb_fullscreen_nav_container">
 				<?php
 					$slide_nav = '';
@@ -201,12 +208,14 @@
 				</ul>
 			</div>
 			
-			<!-- Bottom navbar widget here -->
+			<!-- Bottom navbar widget -->
 			<?php if ( is_active_sidebar( 'ver-nav-widget' ) ) : ?>
 			    <div>
 			        <?php dynamic_sidebar( 'ver-nav-widget' ); ?>
 			    </div>
 			<?php endif; ?>
+			<!-- //Bottom navbar widget -->
+
 		</div>
 	<?php endif; // true ==== $et_slide_header ?>
 

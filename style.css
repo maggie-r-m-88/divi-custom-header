@@ -11,6 +11,99 @@
 -------------------------------------------------------------- */
 
 
+
+/* FONTS */
+
+h1 {
+  font-family:"Helvetica Neue LT W05_75 Bold" !important;
+}
+
+p {
+  font-family:"Helvetica Neue LT W05 65 Medium" !important;
+  line-height: 1.3em !important;
+}
+
+.small-text p {
+  font-family:"Helvetica Neue LT W05 45 Light" !important;
+}
+
+h4 {
+    font-family:"Helvetica Neue LT W05 45 Light" !important;
+  color: #F57E20;
+}
+
+
+    @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=dd4b98be-6e7e-443c-bc34-a38eed40f2ee&fontids=5664067,5664070,5664077,5664081,5664085,5664089,5664093,5664098,5664103,5664107,5664111,5664115,5664119,5664121,5664128,5664150");
+    @font-face{
+        font-family:"Helvetica Neue LT W05_36 Th It";
+        src:url("/wp-content/Fonts/5664067/2a7e8f89-c0b2-4334-9c34-7a2078d2b959.woff2") format("woff2"),url("/wp-content/Fonts/5664067/32aad9d8-5fec-4b9d-ad53-4cf7a5b53698.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 25 Ult Lt";
+        src:url("/wp-content/Fonts/5664070/ec6281a0-c9c4-4477-a360-156acd53093f.woff2") format("woff2"),url("/wp-content/Fonts/5664070/11066b40-10f7-4123-ba58-d9cbf5e89ceb.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 26UltLtIt";
+        src:url("/wp-content/Fonts/5664077/2707a251-2d32-4bb6-a3c4-87114ba2365f.woff2") format("woff2"),url("/wp-content/Fonts/5664077/40f50724-486b-4e7b-9366-237e06eabfc8.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 35 Thin";
+        src:url("/wp-content/Fonts/5664081/7d63ccf8-e0ae-4dee-ad4d-bbc798aa5803.woff2") format("woff2"),url("/wp-content/Fonts/5664081/b2c1327f-ab3d-4230-93d7-eee8596e1498.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 45 Light";
+        src:url("/wp-content/Fonts/5664085/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"),url("/wp-content/Fonts/5664085/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 46 Lt It";
+        src:url("/wp-content/Fonts/5664089/5e4f385b-17ff-4d27-a63a-9ee28546c9a8.woff2") format("woff2"),url("/wp-content/Fonts/5664089/116cde47-4a07-44a5-9fac-cbdcc1f14f79.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 55 Roman";
+        src:url("/wp-content/Fonts/5664093/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2") format("woff2"),url("/wp-content/Fonts/5664093/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 56 Italic";
+        src:url("/wp-content/Fonts/5664098/4bd56f95-e7ab-4a32-91fd-b8704cbd38bc.woff2") format("woff2"),url("/wp-content/Fonts/5664098/4fe1c328-1f21-434a-8f0d-5e0cf6c70dfb.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 65 Medium";
+        src:url("/wp-content/Fonts/5664103/240c57a0-fdce-440d-9ce3-85e0cb56f470.woff2") format("woff2"),url("/wp-content/Fonts/5664103/7802e576-2ffa-4f22-a409-534355fbea79.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 66 Md It";
+        src:url("/wp-content/Fonts/5664107/de68be2a-5d0e-4b8d-b3eb-940f75503e2a.woff2") format("woff2"),url("/wp-content/Fonts/5664107/31029e78-79a0-4940-b82d-2e3c238e1355.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 76 Bd It";
+        src:url("/wp-content/Fonts/5664111/13ab58b4-b5ba-4c95-afde-ab2608fbbbd9.woff2") format("woff2"),url("/wp-content/Fonts/5664111/5018b5b5-c821-4653-bc74-d0b11d735f1a.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 85 Heavy";
+        src:url("/wp-content/Fonts/5664115/7e42a406-9133-48c0-a705-4264ac520b43.woff2") format("woff2"),url("/wp-content/Fonts/5664115/837750e9-3227-455d-a04e-dc76764aefcf.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 86 Hv It";
+        src:url("/wp-content/Fonts/5664119/0acba88f-0de4-4d43-81fd-920d7427f665.woff2") format("woff2"),url("/wp-content/Fonts/5664119/713c9c40-9cbd-4276-819e-d0efaf5d3923.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 95 Black";
+        src:url("/wp-content/Fonts/5664121/fc4fb6ca-f981-4115-b882-c78e9f08be52.woff2") format("woff2"),url("/wp-content/Fonts/5664121/6ed03453-f512-45ba-84bf-fe4ea45d5e6a.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05 96 Blk It";
+        src:url("/wp-content/Fonts/5664128/995add04-59cc-41ea-abd2-4712eaddf2a8.woff2") format("woff2"),url("/wp-content/Fonts/5664128/7090e465-f6bf-4664-8b5a-d877a6915d87.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Helvetica Neue LT W05_75 Bold";
+        src:url("/wp-content/Fonts/5664150/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2") format("woff2"),url("/wp-content/Fonts/5664150/7b415a05-784a-4a4c-8c94-67e9288312f5.woff") format("woff");
+    }
+
+
+
+
+
+
 /* SHOW MOBILE MENU HAMBURGER ALL SCREENS */
 @media only screen and ( min-width:980px ) {
     #et_mobile_nav_menu { display:block !important; margin-bottom:20px; margin-top:6px }
@@ -93,160 +186,97 @@ max-height: 50%;
 
 
 /* TOP HEADER HAMBURGER MENU */
-
 .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
-  background: url(/wp-content/uploads/2020/05/burger_menu_white_cropped.png);
-  background-size: contain;
-  background-position: center;
-  width: 40px;
-  background-repeat: no-repeat;
+    background: url(/wp-content/uploads/2020/05/burger_menu_white_cropped.png);
+    background-size: contain;
+    background-position: center;
+    width: 40px;
+    background-repeat: no-repeat;
 }
-body.et_pb_slide_menu_active .et_pb_header_toggle {
+
+body.et_pb_slide_menu_active .et_pb_header_toggle{
   opacity: 0;
 }
-.et_header_style_slide .et_pb_header_toggle {
+
+.et_header_style_slide .et_pb_header_toggle{
   transition: 0.3s opacity ease-in;
   opacity: 1;
 }
-.et_header_style_slide #et-top-navigation .mobile_menu_bar:before {
-  opacity: 0;
-}
-.et_header_style_slide .et_toggle_slide_menu:after {
-  opacity: 0;
-}
-/* Page with white nav background */
-.page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
-  background: url(/wp-content/uploads/2020/05/burger_menu_grey_cropped.png);
-  background-size: contain;
-  background-position: center;
-  width: 40px;
-  background-repeat: no-repeat;
-}
-/* CUSTOM SLIDING NAV  */
 
-#custom-menu-nav {
+.et_header_style_slide #et-top-navigation .mobile_menu_bar:after {
+    opacity: 0;
+
+}
+.et_header_style_slide .et_toggle_slide_menu:before{
+    content: "Menu";
+    font-size: 14px;
+    font-family: Open Sans,Arial,sans-serif !important;
+    top: 10px;
+    font-weight: bold;
+    opacity: 1;
+    color: #FFFFFF;
+    transform: none;
+}
+
+
+/* CUSTOM SLIDING NAV  */
+#custom-menu-nav{
   position: absolute;
   right: 0;
 }
-#custom-menu-nav #toggler {
+#custom-menu-nav #toggler{
   width: 100px;
-  height: 90px;
-  background: url('/wp-content/uploads/2020/05/closing-symbol_white.png');
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
+    height: 90px;
+    background: url('/wp-content/uploads/2020/05/closing-symbol_white.png');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 }
-#custom-bottom-nav {
+#custom-bottom-nav{
   position: absolute;
   bottom: 30px;
-  width: 100%;
-  color: #FFF;
-  font-size: 20px;
-  padding: 28px 40px;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    padding: 28px 40px;
 }
-#custom-bottom-nav .textwidget {
+#custom-bottom-nav .textwidget{
   border-top: 1px solid #FFF;
   padding-top: 10px;
 }
-#custom-bottom-nav .textwidget p, #custom-bottom-nav .textwidget a {
-  color: #FFF;
-  font-size: 14px;
+
+#custom-bottom-nav .textwidget p, #custom-bottom-nav .textwidget a{
+    color: #FFF;
+    font-size: 14px;
 }
-@media (max-width: 782px) {
-  .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle, .page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
-    background: url(https://totalview2020.wpengine.com/wp-content/uploads/2020/05/burger_menu_white_cropped_mobile.png);
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    #custom-bottom-nav{
+      display: none;
+    }
+}
+
+@media (max-width: 980px){
+  .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+    background: url('https://totalview2020.wpengine.com/wp-content/uploads/2020/05/burger_menu_white_cropped_mobilev5.png');
     background-size: contain;
-    background-position: center;
+    background-position: top;
     width: 50px;
-    line-height: 49px;
+    line-height: 50px;
     background-repeat: no-repeat;
+  }
+  .et_header_style_slide .et_toggle_slide_menu:before{
+    content: "Menu";
+    font-size: 14px;
+    font-family: Open Sans,Arial,sans-serif !important;
+    top: 12px;
+    font-weight: bold;
+    opacity: 1;
+    color: #FFFFFF;
+    left: 5px;
   }
 }
 
-
-
-/* FONTS */
-
-h1 {
-  font-family:"Helvetica Neue LT W05_75 Bold";
-}
-
-p {
-  font-family:"Helvetica Neue LT W05 65 Medium";
-  font-size: 30px !important;
-}
-
-h4 {
-    font-family:"Helvetica Neue LT W05 45 Light";
-  font-size: 28px !important;
-  color: #F57E20;
-}
-
-
-    @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=dd4b98be-6e7e-443c-bc34-a38eed40f2ee&fontids=5664067,5664070,5664077,5664081,5664085,5664089,5664093,5664098,5664103,5664107,5664111,5664115,5664119,5664121,5664128,5664150");
-    @font-face{
-        font-family:"Helvetica Neue LT W05_36 Th It";
-        src:url("/wp-content/Fonts/5664067/2a7e8f89-c0b2-4334-9c34-7a2078d2b959.woff2") format("woff2"),url("/wp-content/Fonts/5664067/32aad9d8-5fec-4b9d-ad53-4cf7a5b53698.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 25 Ult Lt";
-        src:url("/wp-content/Fonts/5664070/ec6281a0-c9c4-4477-a360-156acd53093f.woff2") format("woff2"),url("/wp-content/Fonts/5664070/11066b40-10f7-4123-ba58-d9cbf5e89ceb.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 26UltLtIt";
-        src:url("/wp-content/Fonts/5664077/2707a251-2d32-4bb6-a3c4-87114ba2365f.woff2") format("woff2"),url("/wp-content/Fonts/5664077/40f50724-486b-4e7b-9366-237e06eabfc8.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 35 Thin";
-        src:url("/wp-content/Fonts/5664081/7d63ccf8-e0ae-4dee-ad4d-bbc798aa5803.woff2") format("woff2"),url("/wp-content/Fonts/5664081/b2c1327f-ab3d-4230-93d7-eee8596e1498.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 45 Light";
-        src:url("/wp-content/Fonts/5664085/f9c5199e-a996-4c08-9042-1eb845bb7495.woff2") format("woff2"),url("/wp-content/Fonts/5664085/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 46 Lt It";
-        src:url("/wp-content/Fonts/5664089/5e4f385b-17ff-4d27-a63a-9ee28546c9a8.woff2") format("woff2"),url("/wp-content/Fonts/5664089/116cde47-4a07-44a5-9fac-cbdcc1f14f79.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 55 Roman";
-        src:url("/wp-content/Fonts/5664093/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2") format("woff2"),url("/wp-content/Fonts/5664093/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 56 Italic";
-        src:url("/wp-content/Fonts/5664098/4bd56f95-e7ab-4a32-91fd-b8704cbd38bc.woff2") format("woff2"),url("/wp-content/Fonts/5664098/4fe1c328-1f21-434a-8f0d-5e0cf6c70dfb.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 65 Medium";
-        src:url("/wp-content/Fonts/5664103/240c57a0-fdce-440d-9ce3-85e0cb56f470.woff2") format("woff2"),url("/wp-content/Fonts/5664103/7802e576-2ffa-4f22-a409-534355fbea79.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 66 Md It";
-        src:url("/wp-content/Fonts/5664107/de68be2a-5d0e-4b8d-b3eb-940f75503e2a.woff2") format("woff2"),url("/wp-content/Fonts/5664107/31029e78-79a0-4940-b82d-2e3c238e1355.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 76 Bd It";
-        src:url("/wp-content/Fonts/5664111/13ab58b4-b5ba-4c95-afde-ab2608fbbbd9.woff2") format("woff2"),url("/wp-content/Fonts/5664111/5018b5b5-c821-4653-bc74-d0b11d735f1a.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 85 Heavy";
-        src:url("/wp-content/Fonts/5664115/7e42a406-9133-48c0-a705-4264ac520b43.woff2") format("woff2"),url("/wp-content/Fonts/5664115/837750e9-3227-455d-a04e-dc76764aefcf.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 86 Hv It";
-        src:url("/wp-content/Fonts/5664119/0acba88f-0de4-4d43-81fd-920d7427f665.woff2") format("woff2"),url("/wp-content/Fonts/5664119/713c9c40-9cbd-4276-819e-d0efaf5d3923.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 95 Black";
-        src:url("/wp-content/Fonts/5664121/fc4fb6ca-f981-4115-b882-c78e9f08be52.woff2") format("woff2"),url("/wp-content/Fonts/5664121/6ed03453-f512-45ba-84bf-fe4ea45d5e6a.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05 96 Blk It";
-        src:url("/wp-content/Fonts/5664128/995add04-59cc-41ea-abd2-4712eaddf2a8.woff2") format("woff2"),url("/wp-content/Fonts/5664128/7090e465-f6bf-4664-8b5a-d877a6915d87.woff") format("woff");
-    }
-    @font-face{
-        font-family:"Helvetica Neue LT W05_75 Bold";
-        src:url("/wp-content/Fonts/5664150/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2") format("woff2"),url("/wp-content/Fonts/5664150/7b415a05-784a-4a4c-8c94-67e9288312f5.woff") format("woff");
-    }
 
 

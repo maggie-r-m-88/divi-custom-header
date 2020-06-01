@@ -118,18 +118,6 @@ h4 {
 }
 
 
-/* LOGO CHANGE PAGE */
-
-.page-id-10 img#logo {
-display: none;
-}
-
-.page-id-10 .logo_container a {
-content: url(/wp-content/uploads/2020/05/TotalView_logo_color.png) !important;
-max-height: 50%;
-}
-
-
 
 /* PUSHING MENU ITEMS DOWN */
 .et_slide_in_menu_container ul#mobile_menu_slide {
@@ -149,7 +137,7 @@ max-height: 50%;
 .et_header_style_slide #et-top-navigation .mobile_menu_bar:before {
   color:#fff;
 }
-.page-id-10 .mobile_menu_bar:before {
+.page-id-10 .mobile_menu_bar:before{
   color:#848585 !important;
 }
 
@@ -186,97 +174,114 @@ max-height: 50%;
 
 
 /* TOP HEADER HAMBURGER MENU */
-.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
-    background: url(/wp-content/uploads/2020/05/burger_menu_white_cropped.png);
-    background-size: contain;
-    background-position: center;
-    width: 40px;
-    background-repeat: no-repeat;
-}
 
-body.et_pb_slide_menu_active .et_pb_header_toggle{
+.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+  background: url('/wp-content/uploads/2020/05/burger_menu_white_cropped.png');
+  background-size: contain;
+  background-position: center;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+/* Page with white nav background */
+
+.page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+  background: url('/wp-content/uploads/2020/05/burger_menu_grey_cropped.png');
+  background-size: contain;
+  background-position: center;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+body.et_pb_slide_menu_active .et_pb_header_toggle {
   opacity: 0;
 }
-
-.et_header_style_slide .et_pb_header_toggle{
+.et_header_style_slide .et_pb_header_toggle {
   transition: 0.3s opacity ease-in;
   opacity: 1;
 }
-
-.et_header_style_slide #et-top-navigation .mobile_menu_bar:after {
-    opacity: 0;
-
+.et_header_style_slide .et_toggle_slide_menu:before {
+  content: "Menu";
+  font-size: 14px;
+  font-family: Open Sans, Arial, sans-serif !important;
+  top: 10px;
+  font-weight: bold;
+  opacity: 1;
+  color: #FFFFFF;
+  transform: none;
 }
-.et_header_style_slide .et_toggle_slide_menu:before{
-    content: "Menu";
-    font-size: 14px;
-    font-family: Open Sans,Arial,sans-serif !important;
-    top: 10px;
-    font-weight: bold;
-    opacity: 1;
-    color: #FFFFFF;
-    transform: none;
+.et_header_style_slide .et_toggle_slide_menu:after {
+  opacity: 0;
 }
-
-
 /* CUSTOM SLIDING NAV  */
-#custom-menu-nav{
+
+#custom-menu-nav {
   position: absolute;
   right: 0;
 }
-#custom-menu-nav #toggler{
-  width: 100px;
-    height: 90px;
-    background: url('/wp-content/uploads/2020/05/closing-symbol_white.png');
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+#custom-menu-nav #toggler {
+  width: 110px;
+  height: 90px;
+  background: url('/wp-content/uploads/2020/05/closing-symbol_white.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
 }
-#custom-bottom-nav{
+#custom-bottom-nav {
   position: absolute;
   bottom: 30px;
-    width: 100%;
-    color: #FFF;
-    font-size: 20px;
-    padding: 28px 40px;
+  width: 100%;
+  color: #FFF;
+  font-size: 20px;
+  padding: 28px 40px;
 }
-#custom-bottom-nav .textwidget{
+#custom-bottom-nav .textwidget {
   border-top: 1px solid #FFF;
   padding-top: 10px;
 }
-
-#custom-bottom-nav .textwidget p, #custom-bottom-nav .textwidget a{
-    color: #FFF;
-    font-size: 14px;
+#custom-bottom-nav .textwidget p, #custom-bottom-nav .textwidget a {
+  color: #FFF;
+  font-size: 14px;
 }
-
 /*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
-    #custom-bottom-nav{
-      display: none;
-    }
-}
 
-@media (max-width: 980px){
-  .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
-    background: url('https://totalview2020.wpengine.com/wp-content/uploads/2020/05/burger_menu_white_cropped_mobilev5.png');
+@media all and (max-width: 767px) {
+  #custom-bottom-nav {
+    display: none;
+  }
+}
+/*** Responsive Styles Tablet And Below ***/
+
+@media (max-width: 980px) {
+  .et_header_style_slide .mobile_menu_bar.et_pb_header_toggle, .page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
+    background: url('/wp-content/uploads/2020/05/burger_menu_white_cropped_mobilev5.png');
     background-size: contain;
     background-position: top;
     width: 50px;
     line-height: 50px;
     background-repeat: no-repeat;
   }
-  .et_header_style_slide .et_toggle_slide_menu:before{
+  .et_header_style_slide .et_toggle_slide_menu:before {
     content: "Menu";
     font-size: 14px;
-    font-family: Open Sans,Arial,sans-serif !important;
+    font-family: Open Sans, Arial, sans-serif !important;
     top: 12px;
     font-weight: bold;
     opacity: 1;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     left: 5px;
   }
 }
-
+@media (min-width: 980px) {
+  /*** LOGO CHANGE PAGE on desktop ***/
+  .page-id-10 img#logo {
+    display: none;
+  }
+  .page-id-10 .logo_container a {
+    content: url('/wp-content/uploads/2020/05/TotalView_logo_color.png') !important;
+    max-height: 50%;
+  }
+  .page-id-10 span.logo_helper {
+    margin-top: 25px !important;
+  }
+}
 
 

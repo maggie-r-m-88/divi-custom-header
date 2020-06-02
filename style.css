@@ -183,7 +183,6 @@ h4 {
   background-repeat: no-repeat;
 }
 /* Page with white nav background */
-
 .page-id-10.et_header_style_slide .mobile_menu_bar.et_pb_header_toggle {
   background: url('/wp-content/uploads/2020/05/burger_menu_grey_cropped.png');
   background-size: contain;
@@ -211,6 +210,7 @@ body.et_pb_slide_menu_active .et_pb_header_toggle {
 .et_header_style_slide .et_toggle_slide_menu:after {
   opacity: 0;
 }
+
 /* CUSTOM SLIDING NAV  */
 
 #custom-menu-nav {
@@ -241,6 +241,13 @@ body.et_pb_slide_menu_active .et_pb_header_toggle {
   color: #FFF;
   font-size: 14px;
 }
+
+/* LOGO OVER IMAGE HOVER  */
+.os-logo-hover:hover::before{
+  opacity: 1;
+}
+
+
 /*** Responsive Styles Smartphone Only ***/
 
 @media all and (max-width: 767px) {
@@ -271,9 +278,9 @@ body.et_pb_slide_menu_active .et_pb_header_toggle {
   }
 }
 @media (min-width: 980px) {
-  /*** LOGO CHANGE PAGE on desktop ***/
+  
   .page-id-10 img#logo {
-    display: none;
+    display: none; /*** LOGO CHANGE PAGE on desktop ***/
   }
   .page-id-10 .logo_container a {
     content: url('/wp-content/uploads/2020/05/TotalView_logo_color.png') !important;
